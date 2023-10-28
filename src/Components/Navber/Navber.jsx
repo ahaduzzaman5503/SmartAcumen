@@ -2,7 +2,7 @@ import React from "react";
 
 const Navber = () => {
   const style = {
-    licss: `hover:text-white hover:bg-base-300 hover:rounded-md `,
+    licss: ` hover:text-white hover:bg-base-300 hover:rounded-md `,
   };
 
   const login = false;
@@ -49,9 +49,6 @@ const Navber = () => {
             <li className={style.licss}>
               <a>Contact Us</a>
             </li>
-            <li className={style.licss}>
-              <a>Sign Up</a>
-            </li>
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl font-bold text-lime-600 border border-lime-700">
@@ -75,13 +72,6 @@ const Navber = () => {
           <li className={style.licss}>
             <a>Contact Us</a>
           </li>
-          {login ? (
-            ""
-          ) : (
-            <li className={style.licss}>
-              <a>Sign Up</a>
-            </li>
-          )}
         </ul>
       </div>
       <div className="navbar-end">
@@ -106,12 +96,14 @@ const Navber = () => {
               ) : (
                 ""
               )}
-              <li></li>
             </ul>
           </div>
         ) : (
-          <div className={style.licss}>
-            <button className="btn btn-primary">Login</button>
+          <div className="">
+            <div className="flex gap-2">
+            <button className="btn bg-green-200 text-black font-bold capitalize text-xl hover:text-white">Sign Up</button>
+            <button className="btn bg-green-100 text-black font-bold capitalize text-xl hover:text-white">Login</button>
+            </div>
           </div>
         )}
       </div>
