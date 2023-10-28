@@ -10,7 +10,7 @@ const Navber = () => {
   return (
     <div
       className="container mx-auto navbar  bg-white text-black 
-     shadow-lg rounded-md"
+     shadow-lg rounded-md "
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -100,9 +100,9 @@ const Navber = () => {
           </div>
         ) : (
           <div className="">
-            <div className="flex gap-2">
-            <button className="btn bg-green-200 text-black font-bold capitalize text-xl hover:text-white">Sign Up</button>
-            <button className="btn bg-green-100 text-black font-bold capitalize text-xl hover:text-white">Login</button>
+            <div className="flex gap-1">
+            <button className="btn bg-green-200 text-black font-semibold capitalize text-xl hover:text-white">Sign Up</button>
+            <button className="btn bg-green-100 text-black font-semibold capitalize text-xl hover:text-white">Login</button>
             </div>
           </div>
         )}

@@ -4,6 +4,8 @@ import {
   FaTwitter,
   FaLinkedinIn,
   FaInstagram,
+  FaGithub,
+  FaLink,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -20,7 +22,7 @@ const Footer = () => {
         </nav>
       </footer>
 
-      <footer className="container mx-auto footer grid-rows-1 grid-cols-4 p-10 bg-neutral text-neutral-content">
+      <footer className="container mx-auto footer  p-10 bg-neutral text-neutral-content lg:grid-rows-1 md:grid-rows-2 sm:grid-rows-2  grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
         <nav>
           <header
             className="font-bold text-white 
@@ -72,16 +74,22 @@ const Footer = () => {
       <footer className="container mx-auto footer flex justify-center items-center bg-neutral p-5">
         <nav className="flex gap-5">
           <a>
-            <FaFacebook size={30}></FaFacebook>
+            <FaGithub size={30} color="white"></FaGithub>
           </a>
           <a>
-            <FaTwitter size={30}></FaTwitter>
+            <FaLinkedinIn size={30} color="white"></FaLinkedinIn>
           </a>
           <a>
-            <FaLinkedinIn size={30}></FaLinkedinIn>
+            <FaLink size={30} color="white"></FaLink>
           </a>
           <a>
-            <FaInstagram size={30}></FaInstagram>
+            <FaFacebook size={30} color="white"></FaFacebook>
+          </a>
+          <a>
+            <FaInstagram size={30} color="white"></FaInstagram>
+          </a>
+          <a>
+            <FaTwitter size={30} color="white"></FaTwitter>
           </a>
         </nav>
       </footer>
