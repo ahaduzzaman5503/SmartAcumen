@@ -1,0 +1,122 @@
+      [
+        {
+            "short": 1,
+            "title": "HTML Fundamentals",
+            "description": "Learn the basics of HTML, the foundation of web development.",
+            "instructor": "John Doe",
+            "duration": "4 weeks",
+            "level": "Beginner",
+            "price": 49.99,
+            "image": "https://i.ibb.co/m4wPhSP/HTML-Fundamentals.png"
+        },
+        {
+            "short": 2,
+            "title": "CSS Styling Techniques",
+            "description": "Master CSS to style and design web pages.",
+            "instructor": "Jane Smith",
+            "duration": "6 weeks",
+            "level": "Intermediate",
+            "price": 69.99,
+            "image": "https://i.ibb.co/DgYrPf7/css.jpg"
+        },
+        {
+            "short": 3,
+            "title": "Bootstrap for Web Design",
+            "description": "Explore Bootstrap to create responsive and modern web designs.",
+            "instructor": "Mark Johnson",
+            "duration": "8 weeks",
+            "level": "Intermediate",
+            "price": 79.99,
+            "image": "https://i.ibb.co/T0FmkN3/Bootstrap5.jpg"
+        },
+        {
+            "short": 4,
+            "title": "Tailwind CSS Masterclass",
+            "description": "Become a pro in Tailwind CSS for rapshort web development.",
+            "instructor": "Emily Brown",
+            "duration": "10 weeks",
+            "level": "Advanced",
+            "price": 99.99,
+            "image": "tailwindcss-masterclass.jpg"
+        },
+        {
+            "short": 5,
+            "title": "JavaScript Essentials",
+            "description": "Learn JavaScript for web development and interaction.",
+            "instructor": "Davshort Lee",
+            "duration": "8 weeks",
+            "level": "Intermediate",
+            "price": 89.99,
+            "image": "https://i.ibb.co/0ntRfpS/Java-Script.png"
+        },
+        {
+            "short": 6,
+            "title": "React.js Mastery",
+            "description": "Build modern web applications with React.js.",
+            "instructor": "Rachel White",
+            "duration": "12 weeks",
+            "level": "Advanced",
+            "price": 109.99,
+            "image": "https://i.ibb.co/TYwT8VD/React-js.png"
+        },
+        {
+            "short": 7,
+            "title": "Express.js for Back-End Development",
+            "description": "Learn server-sshorte JavaScript with Express.js.",
+            "instructor": "Sam Johnson",
+            "duration": "8 weeks",
+            "level": "Intermediate",
+            "price": 79.99,
+            "image": "https://i.ibb.co/ZhTrczt/Express-js.png"
+        },
+        {
+            "short": 8,
+            "title": "Node.js Server Development",
+            "description": "Master Node.js for creating scalable web servers.",
+            "instructor": "Laura Miller",
+            "duration": "10 weeks",
+            "level": "Intermediate",
+            "price": 89.99,
+            "image": "https://i.ibb.co/gw3QVgP/node-Js.png"
+        },
+        {
+            "short": 9,
+            "title": "JSON Data Management",
+            "description": "Learn how to work with JSON data and APIs.",
+            "instructor": "Michael Scott",
+            "duration": "6 weeks",
+            "level": "Intermediate",
+            "price": 59.99,
+            "image": "https://i.ibb.co/MckgQm9/JSON.jpg"
+        },
+        {
+            "short": 10,
+            "title": "MongoDB for Web Applications",
+            "description": "Discover MongoDB for database-driven web apps.",
+            "instructor": "Lisa Davis",
+            "duration": "8 weeks",
+            "level": "Intermediate",
+            "price": 69.99,
+            "image": "https://i.ibb.co/RBN2nWd/MongoDB.png"
+        },
+        {
+            "short": 11,
+            "title": "Firebase App Development",
+            "description": "Create web and mobile apps with Firebase.",
+            "instructor": "Jason Kim",
+            "duration": "12 weeks",
+            "level": "Advanced",
+            "price": 119.99,
+            "image": "https://i.ibb.co/sH7qrMd/Firebase.png"
+        },
+    {
+        "short": 12,
+        "title": "Responsive Web Design",
+        "description": "Design websites that look great on all devices.",
+        "instructor": "Sarah Adams",
+        "duration": "6 weeks",
+        "level": "Intermediate",
+        "price": 59.99,
+        "image": "https://i.ibb.co/K9rxG4K/Responsive-Web-Design.png"
+    }
+]

@@ -51,7 +51,7 @@ const Navber = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl font-bold text-lime-600 border border-lime-700">
+        <a className="btn btn-ghost normal-case text-xl font-bold border-black">
           SmartAcumen
         </a>
       </div>
@@ -101,8 +101,8 @@ const Navber = () => {
         ) : (
           <div className="">
             <div className="flex gap-1">
-            <button className="btn bg-green-200 text-black font-semibold capitalize text-xl hover:text-white">Sign Up</button>
-            <button className="btn bg-green-100 text-black font-semibold capitalize text-xl hover:text-white">Login</button>
+            <button className="font-semibold capitalize border border-black text-black p-2 rounded">Sign Up</button>
+            <button className="font-semibold capitalize border border-black text-black p-2 rounded">Login</button>
             </div>
           </div>
         )}

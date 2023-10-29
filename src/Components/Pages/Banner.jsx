@@ -17,7 +17,7 @@ const Banner = () => {
               Unlock Your Potential with Smart Acumen: Build your Career.
             </h1>
             <p className="mb-5 text-2xl">
-              Elevate Your Skills, Expand Your Horizons, and <mark className="rounded-md px-1 shadow-2xl">Shape Your Future</mark>.
+              Elevate Your Skills, Expand Your Horizons, and Shape Your Future.
             </p>
             <details>
                 <summary className="text-xl">
