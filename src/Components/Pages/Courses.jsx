@@ -3,18 +3,19 @@ import React, { useState, useEffect } from "react";
 const Courses = () => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true);
+  console.log(courses);
 
   useEffect(() => {
     // Fetch data from the API
     fetch("https://smartacumen-server.vercel.app/courses")
       .then((response) => response.json())
       .then((data) => {
-        setCourses(data); // Update the state with the retrieved data
-        setLoading(false); // Set loading to false once data is loaded
+        setCourses(data);
+        setLoading(false);  
       })
       .catch((error) => {
         console.error("Error loading data:", error);
-        setLoading(false); // Set loading to false in case of an error
+        setLoading(false);
       });
   }, []);
 
